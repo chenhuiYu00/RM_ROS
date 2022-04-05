@@ -1,0 +1,5 @@
+<launch>
+
+    <node name="rm_referee" pkg="rm_referee" type="rm_referee" respawn="false"/>
+
+</launch>

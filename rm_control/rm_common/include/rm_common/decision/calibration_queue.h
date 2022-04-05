@@ -38,6 +38,7 @@
 #pragma once
 
 #include "rm_common/decision/service_caller.h"
+#include "rm_common/decision/controller_manager.h"
 
 namespace rm_common
 {

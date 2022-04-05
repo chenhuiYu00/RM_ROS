@@ -23,12 +23,18 @@ add_message_files(
         KalmanData.msg
         MovingAverageData.msg
         SuperCapacitor.msg
+        TofSensor.msg
+        CapacityData.msg
+        CommandSender.msg
+        GameStatus.msg
+        GameRobotStatus.msg
 )
 
 add_service_files(
         FILES
         ContinousDetectorSwitch.srv
         StatusChange.srv
+        CameraStatus.srv
 )
 
 add_message_files(

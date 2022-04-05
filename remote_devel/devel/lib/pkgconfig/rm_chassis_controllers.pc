@@ -1,0 +1,8 @@
+prefix=/home/yuchen/usetest/RM_ROS/src/remote_devel/devel
+
+Name: rm_chassis_controllers
+Description: Description of rm_chassis_controllers
+Version: 0.1.2
+Cflags: -I/home/yuchen/usetest/RM_ROS/src/rm_controllers/rm_chassis_controllers/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lrm_chassis_controllers
+Requires: roscpp roslint rm_msgs rm_common nav_msgs pluginlib hardware_interface controller_interface forward_command_controller realtime_tools control_toolbox effort_controllers tf2 tf2_geometry_msgs angles

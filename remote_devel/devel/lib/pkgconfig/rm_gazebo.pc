@@ -1,0 +1,8 @@
+prefix=/home/yuchen/usetest/RM_ROS/src/remote_devel/devel
+
+Name: rm_gazebo
+Description: Description of rm_gazebo
+Version: 0.1.8
+Cflags: -I/home/yuchen/usetest/RM_ROS/src/rm_gazebo/include
+Libs: -L${prefix}/lib -lrm_robot_hw_sim -lrm_mimic_joint_plugin
+Requires: roscpp rm_common gazebo_ros gazebo_ros_control

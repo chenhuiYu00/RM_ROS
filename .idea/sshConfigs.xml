@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.1.112" id="7583ffda-9398-49be-ab0e-88f0ad9ef57f" port="22" nameFormat="DESCRIPTIVE" username="dynamicx" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.1.139" id="80ceec80-6bf7-4300-b51f-3bd552383afc" port="22" customName="dynamicx@192.168.1.139" nameFormat="CUSTOM" username="dynamicx" useOpenSSHConfig="true">
+        <option name="customName" value="dynamicx@192.168.1.139" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="192.168.1.101" id="cab1b0f1-6c5e-4ae9-b62e-97dbc1658872" port="22" nameFormat="DESCRIPTIVE" username="dynamicx" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

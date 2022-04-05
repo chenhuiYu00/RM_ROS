@@ -1,0 +1,58 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/imu_filter_madgwick/cmake/imu_filter_madgwickConfig.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake",
+			"rm_controllers/imu_filter_controllers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 4
+			}
+		]
+	},
+	"id" : "imu_filter_madgwick_gencfg::@2cac7f4bd6b2e9813004",
+	"name" : "imu_filter_madgwick_gencfg",
+	"paths" : 
+	{
+		"build" : "rm_controllers/imu_filter_controllers",
+		"source" : "rm_controllers/imu_filter_controllers"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

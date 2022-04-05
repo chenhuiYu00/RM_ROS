@@ -1,0 +1,8 @@
+prefix=/home/yuchen/usetest/RM_ROS/src/remote_devel/devel
+
+Name: robot_state_controller
+Description: Description of robot_state_controller
+Version: 0.1.2
+Cflags: -I/home/yuchen/usetest/RM_ROS/src/rm_controllers/robot_state_controller/include
+Libs: -L${prefix}/lib -lrobot_state_controller
+Requires: roscpp roslint rm_common hardware_interface controller_interface urdf tf2_ros kdl_parser realtime_tools pluginlib

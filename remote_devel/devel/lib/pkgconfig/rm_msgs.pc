@@ -1,0 +1,8 @@
+prefix=/home/yuchen/usetest/RM_ROS/src/remote_devel/devel
+
+Name: rm_msgs
+Description: Description of rm_msgs
+Version: 0.1.8
+Cflags: -I/home/yuchen/usetest/RM_ROS/src/remote_devel/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs geometry_msgs actionlib actionlib_msgs

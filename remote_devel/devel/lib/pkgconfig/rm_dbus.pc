@@ -1,0 +1,8 @@
+prefix=/home/yuchen/usetest/RM_ROS/src/remote_devel/devel
+
+Name: rm_dbus
+Description: Description of rm_dbus
+Version: 0.1.8
+Cflags: -I/home/yuchen/usetest/RM_ROS/src/rm_dbus/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rm_common

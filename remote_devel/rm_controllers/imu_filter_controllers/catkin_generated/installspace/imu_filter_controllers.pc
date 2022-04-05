@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: imu_filter_controllers
+Description: Description of imu_filter_controllers
+Version: 0.1.2
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -limu_filter_controllers
+Requires: roscpp roslint rm_msgs rm_common pluginlib imu_complementary_filter imu_filter_madgwick hardware_interface controller_interface realtime_tools

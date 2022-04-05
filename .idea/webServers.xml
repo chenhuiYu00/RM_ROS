@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c9d33cab-cbe9-4591-9e39-00a3de8a89c8" name="hero">
+        <fileTransfer rootFolder="/home/dynamicx" accessType="SFTP" host="192.168.1.101" port="22" sshConfigId="cab1b0f1-6c5e-4ae9-b62e-97dbc1658872" sshConfig="dynamicx@192.168.1.101:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7011e1a0-9879-4741-b94c-eecd0579626d" name="sentry">
+        <fileTransfer rootFolder="/home/dynamicx" accessType="SFTP" host="192.168.1.112" port="22" sshConfigId="7583ffda-9398-49be-ab0e-88f0ad9ef57f" sshConfig="dynamicx@192.168.1.112:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="546d149d-8984-4473-9d53-db5d491d2ff5" name="standard4">
+        <fileTransfer rootFolder="/home/dynamicx" accessType="SFTP" host="192.168.1.139" port="22" sshConfigId="80ceec80-6bf7-4300-b51f-3bd552383afc" sshConfig="dynamicx@192.168.1.139">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
